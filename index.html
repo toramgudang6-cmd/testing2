@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Management - Stock Counting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Store Management - Stock Counting</h1>
+        <div class="add-item">
+            <input type="text" id="item-name" placeholder="Item name" list="item-names" required>
+            <datalist id="item-names"></datalist>
+            <input type="number" id="item-quantity" placeholder="Quantity" required>
+            <button id="add-item-btn">Add Item</button>
+        </div>
+        <div class="inventory">
+            <h2>Inventory</h2>
+            <ul id="item-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
